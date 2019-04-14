@@ -82,15 +82,15 @@ int main() {
 			
 		switch (pil) {
 			case 1	: push();
-					  break;
+				  break;
 			case 2	: pop();
-					  break;
+				  break;
 			case 3	: getTop();
-					  break;
+				  break;
 			case 4	: cout<<"\nTerimakasih";
-					  break;
+				  break;
 			default : cout<<"\nPilihan Tidak Tersedia";
-					  break;
+				  break;
 		} 
 	} while (pil!=4);
 	return 0;
